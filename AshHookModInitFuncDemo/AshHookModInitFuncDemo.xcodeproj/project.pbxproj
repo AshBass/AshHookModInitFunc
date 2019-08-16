@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2A560F62304F051008218DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A560F52304F051008218DB /* AppDelegate.m */; };
+		F2A560F92304F051008218DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A560F82304F051008218DB /* ViewController.m */; };
+		F2A560FC2304F051008218DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2A560FA2304F051008218DB /* Main.storyboard */; };
+		F2A560FE2304F051008218DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2A560FD2304F051008218DB /* Assets.xcassets */; };
+		F2A561012304F051008218DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2A560FF2304F051008218DB /* LaunchScreen.storyboard */; };
+		F2A561042304F051008218DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A561032304F051008218DB /* main.m */; };
+		F2A5611F230548BF008218DB /* AshHookModInitFunc.mm in Sources */ = {isa = PBXBuildFile; fileRef = F2A5611E230548BF008218DB /* AshHookModInitFunc.mm */; };
+		F2A5613823054E31008218DB /* TestCBlock.mm in Sources */ = {isa = PBXBuildFile; fileRef = F2A5612523054E31008218DB /* TestCBlock.mm */; };
+		F2A5613923054E31008218DB /* TestRectZero.mm in Sources */ = {isa = PBXBuildFile; fileRef = F2A5612623054E31008218DB /* TestRectZero.mm */; };
+		F2A5613A23054E31008218DB /* TestFunction.mm in Sources */ = {isa = PBXBuildFile; fileRef = F2A5612723054E31008218DB /* TestFunction.mm */; };
+		F2A5613B23054E31008218DB /* TestAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A5612923054E31008218DB /* TestAttribute.m */; };
+		F2A5613C23054E31008218DB /* TestMacro.mm in Sources */ = {isa = PBXBuildFile; fileRef = F2A5612A23054E31008218DB /* TestMacro.mm */; };
+		F2A5613D23054E31008218DB /* TestDict.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A5612C23054E31008218DB /* TestDict.m */; };
+		F2A5613E23054E31008218DB /* TestVarVar.mm in Sources */ = {isa = PBXBuildFile; fileRef = F2A5613123054E31008218DB /* TestVarVar.mm */; };
+		F2A5613F23054E31008218DB /* TextVarVarC.c in Sources */ = {isa = PBXBuildFile; fileRef = F2A5613223054E31008218DB /* TextVarVarC.c */; };
+		F2A5614023054E31008218DB /* TestStaticClassMemberMutex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2A5613323054E31008218DB /* TestStaticClassMemberMutex.cpp */; };
+		F2A5614123054E31008218DB /* TestClass.mm in Sources */ = {isa = PBXBuildFile; fileRef = F2A5613523054E31008218DB /* TestClass.mm */; };
+		F2A56147230562AA008218DB /* AshBacktrack.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A56145230562AA008218DB /* AshBacktrack.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F2A560F12304F051008218DB /* AshHookModInitFuncDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AshHookModInitFuncDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2A560F42304F051008218DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F2A560F52304F051008218DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F2A560F72304F051008218DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F2A560F82304F051008218DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F2A560FB2304F051008218DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2A560FD2304F051008218DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2A561002304F051008218DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2A561022304F051008218DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2A561032304F051008218DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2A5611E230548BF008218DB /* AshHookModInitFunc.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AshHookModInitFunc.mm; path = ../AshHookModInitFunc.mm; sourceTree = "<group>"; };
+		F2A5612523054E31008218DB /* TestCBlock.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = TestCBlock.mm; path = AshHookModInitFuncDemo/Test/TestCBlock.mm; sourceTree = SOURCE_ROOT; };
+		F2A5612623054E31008218DB /* TestRectZero.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = TestRectZero.mm; path = AshHookModInitFuncDemo/Test/TestRectZero.mm; sourceTree = SOURCE_ROOT; };
+		F2A5612723054E31008218DB /* TestFunction.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = TestFunction.mm; path = AshHookModInitFuncDemo/Test/TestFunction.mm; sourceTree = SOURCE_ROOT; };
+		F2A5612823054E31008218DB /* TestAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestAttribute.h; path = AshHookModInitFuncDemo/Test/TestAttribute.h; sourceTree = SOURCE_ROOT; };
+		F2A5612923054E31008218DB /* TestAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestAttribute.m; path = AshHookModInitFuncDemo/Test/TestAttribute.m; sourceTree = SOURCE_ROOT; };
+		F2A5612A23054E31008218DB /* TestMacro.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = TestMacro.mm; path = AshHookModInitFuncDemo/Test/TestMacro.mm; sourceTree = SOURCE_ROOT; };
+		F2A5612B23054E31008218DB /* TestCBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestCBlock.h; path = AshHookModInitFuncDemo/Test/TestCBlock.h; sourceTree = SOURCE_ROOT; };
+		F2A5612C23054E31008218DB /* TestDict.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestDict.m; path = AshHookModInitFuncDemo/Test/TestDict.m; sourceTree = SOURCE_ROOT; };
+		F2A5612D23054E31008218DB /* TestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestClass.h; path = AshHookModInitFuncDemo/Test/TestClass.h; sourceTree = SOURCE_ROOT; };
+		F2A5612E23054E31008218DB /* TestDict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestDict.h; path = AshHookModInitFuncDemo/Test/TestDict.h; sourceTree = SOURCE_ROOT; };
+		F2A5612F23054E31008218DB /* TestMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestMacro.h; path = AshHookModInitFuncDemo/Test/TestMacro.h; sourceTree = SOURCE_ROOT; };
+		F2A5613023054E31008218DB /* TestStaticClassMemberMutex.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = TestStaticClassMemberMutex.hpp; path = AshHookModInitFuncDemo/Test/TestStaticClassMemberMutex.hpp; sourceTree = SOURCE_ROOT; };
+		F2A5613123054E31008218DB /* TestVarVar.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = TestVarVar.mm; path = AshHookModInitFuncDemo/Test/TestVarVar.mm; sourceTree = SOURCE_ROOT; };
+		F2A5613223054E31008218DB /* TextVarVarC.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = TextVarVarC.c; path = AshHookModInitFuncDemo/Test/TextVarVarC.c; sourceTree = SOURCE_ROOT; };
+		F2A5613323054E31008218DB /* TestStaticClassMemberMutex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TestStaticClassMemberMutex.cpp; path = AshHookModInitFuncDemo/Test/TestStaticClassMemberMutex.cpp; sourceTree = SOURCE_ROOT; };
+		F2A5613423054E31008218DB /* TestRectZero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestRectZero.h; path = AshHookModInitFuncDemo/Test/TestRectZero.h; sourceTree = SOURCE_ROOT; };
+		F2A5613523054E31008218DB /* TestClass.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = TestClass.mm; path = AshHookModInitFuncDemo/Test/TestClass.mm; sourceTree = SOURCE_ROOT; };
+		F2A5613623054E31008218DB /* TestVarVar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestVarVar.h; path = AshHookModInitFuncDemo/Test/TestVarVar.h; sourceTree = SOURCE_ROOT; };
+		F2A5613723054E31008218DB /* TestFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestFunction.h; path = AshHookModInitFuncDemo/Test/TestFunction.h; sourceTree = SOURCE_ROOT; };
+		F2A56145230562AA008218DB /* AshBacktrack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AshBacktrack.m; path = ../AshBacktrack.m; sourceTree = "<group>"; };
+		F2A56146230562AA008218DB /* AshBacktrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AshBacktrack.h; path = ../AshBacktrack.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2A560EE2304F051008218DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2A560E82304F051008218DB = {
+			isa = PBXGroup;
+			children = (
+				F2A56146230562AA008218DB /* AshBacktrack.h */,
+				F2A56145230562AA008218DB /* AshBacktrack.m */,
+				F2A5611E230548BF008218DB /* AshHookModInitFunc.mm */,
+				F2A560F32304F051008218DB /* AshHookModInitFuncDemo */,
+				F2A5612423054E23008218DB /* Test */,
+				F2A560F22304F051008218DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2A560F22304F051008218DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2A560F12304F051008218DB /* AshHookModInitFuncDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2A560F32304F051008218DB /* AshHookModInitFuncDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F2A560F42304F051008218DB /* AppDelegate.h */,
+				F2A560F52304F051008218DB /* AppDelegate.m */,
+				F2A560F72304F051008218DB /* ViewController.h */,
+				F2A560F82304F051008218DB /* ViewController.m */,
+				F2A560FA2304F051008218DB /* Main.storyboard */,
+				F2A560FD2304F051008218DB /* Assets.xcassets */,
+				F2A560FF2304F051008218DB /* LaunchScreen.storyboard */,
+				F2A561022304F051008218DB /* Info.plist */,
+				F2A561032304F051008218DB /* main.m */,
+			);
+			path = AshHookModInitFuncDemo;
+			sourceTree = "<group>";
+		};
+		F2A5612423054E23008218DB /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				F2A5612823054E31008218DB /* TestAttribute.h */,
+				F2A5612923054E31008218DB /* TestAttribute.m */,
+				F2A5612B23054E31008218DB /* TestCBlock.h */,
+				F2A5612523054E31008218DB /* TestCBlock.mm */,
+				F2A5612D23054E31008218DB /* TestClass.h */,
+				F2A5613523054E31008218DB /* TestClass.mm */,
+				F2A5612E23054E31008218DB /* TestDict.h */,
+				F2A5612C23054E31008218DB /* TestDict.m */,
+				F2A5613723054E31008218DB /* TestFunction.h */,
+				F2A5612723054E31008218DB /* TestFunction.mm */,
+				F2A5612F23054E31008218DB /* TestMacro.h */,
+				F2A5612A23054E31008218DB /* TestMacro.mm */,
+				F2A5613423054E31008218DB /* TestRectZero.h */,
+				F2A5612623054E31008218DB /* TestRectZero.mm */,
+				F2A5613323054E31008218DB /* TestStaticClassMemberMutex.cpp */,
+				F2A5613023054E31008218DB /* TestStaticClassMemberMutex.hpp */,
+				F2A5613623054E31008218DB /* TestVarVar.h */,
+				F2A5613123054E31008218DB /* TestVarVar.mm */,
+				F2A5613223054E31008218DB /* TextVarVarC.c */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2A560F02304F051008218DB /* AshHookModInitFuncDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2A561072304F051008218DB /* Build configuration list for PBXNativeTarget "AshHookModInitFuncDemo" */;
+			buildPhases = (
+				F2A560ED2304F051008218DB /* Sources */,
+				F2A560EE2304F051008218DB /* Frameworks */,
+				F2A560EF2304F051008218DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AshHookModInitFuncDemo;
+			productName = AshHookModInitFuncDemo;
+			productReference = F2A560F12304F051008218DB /* AshHookModInitFuncDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2A560E92304F051008218DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = AshBass;
+				TargetAttributes = {
+					F2A560F02304F051008218DB = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = F2A560EC2304F051008218DB /* Build configuration list for PBXProject "AshHookModInitFuncDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2A560E82304F051008218DB;
+			productRefGroup = F2A560F22304F051008218DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2A560F02304F051008218DB /* AshHookModInitFuncDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2A560EF2304F051008218DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2A561012304F051008218DB /* LaunchScreen.storyboard in Resources */,
+				F2A560FE2304F051008218DB /* Assets.xcassets in Resources */,
+				F2A560FC2304F051008218DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2A560ED2304F051008218DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2A5613823054E31008218DB /* TestCBlock.mm in Sources */,
+				F2A560F92304F051008218DB /* ViewController.m in Sources */,
+				F2A5614123054E31008218DB /* TestClass.mm in Sources */,
+				F2A5613D23054E31008218DB /* TestDict.m in Sources */,
+				F2A5613923054E31008218DB /* TestRectZero.mm in Sources */,
+				F2A5611F230548BF008218DB /* AshHookModInitFunc.mm in Sources */,
+				F2A5614023054E31008218DB /* TestStaticClassMemberMutex.cpp in Sources */,
+				F2A5613F23054E31008218DB /* TextVarVarC.c in Sources */,
+				F2A5613A23054E31008218DB /* TestFunction.mm in Sources */,
+				F2A5613C23054E31008218DB /* TestMacro.mm in Sources */,
+				F2A5613B23054E31008218DB /* TestAttribute.m in Sources */,
+				F2A561042304F051008218DB /* main.m in Sources */,
+				F2A560F62304F051008218DB /* AppDelegate.m in Sources */,
+				F2A56147230562AA008218DB /* AshBacktrack.m in Sources */,
+				F2A5613E23054E31008218DB /* TestVarVar.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F2A560FA2304F051008218DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2A560FB2304F051008218DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2A560FF2304F051008218DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2A561002304F051008218DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2A561052304F051008218DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F2A561062304F051008218DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2A561082304F051008218DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AshHookModInitFuncDemo/Info.plist;
+				LD_GENERATE_MAP_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AshBass.AshHookModInitFuncDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2A561092304F051008218DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AshHookModInitFuncDemo/Info.plist;
+				LD_GENERATE_MAP_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AshBass.AshHookModInitFuncDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2A560EC2304F051008218DB /* Build configuration list for PBXProject "AshHookModInitFuncDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2A561052304F051008218DB /* Debug */,
+				F2A561062304F051008218DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2A561072304F051008218DB /* Build configuration list for PBXNativeTarget "AshHookModInitFuncDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2A561082304F051008218DB /* Debug */,
+				F2A561092304F051008218DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2A560E92304F051008218DB /* Project object */;
+}
