@@ -24,7 +24,6 @@
 		F2A5613F23054E31008218DB /* TextVarVarC.c in Sources */ = {isa = PBXBuildFile; fileRef = F2A5613223054E31008218DB /* TextVarVarC.c */; };
 		F2A5614023054E31008218DB /* TestStaticClassMemberMutex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2A5613323054E31008218DB /* TestStaticClassMemberMutex.cpp */; };
 		F2A5614123054E31008218DB /* TestClass.mm in Sources */ = {isa = PBXBuildFile; fileRef = F2A5613523054E31008218DB /* TestClass.mm */; };
-		F2A56147230562AA008218DB /* AshBacktrack.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A56145230562AA008218DB /* AshBacktrack.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,8 +57,6 @@
 		F2A5613523054E31008218DB /* TestClass.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = TestClass.mm; path = AshHookModInitFuncDemo/Test/TestClass.mm; sourceTree = SOURCE_ROOT; };
 		F2A5613623054E31008218DB /* TestVarVar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestVarVar.h; path = AshHookModInitFuncDemo/Test/TestVarVar.h; sourceTree = SOURCE_ROOT; };
 		F2A5613723054E31008218DB /* TestFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestFunction.h; path = AshHookModInitFuncDemo/Test/TestFunction.h; sourceTree = SOURCE_ROOT; };
-		F2A56145230562AA008218DB /* AshBacktrack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AshBacktrack.m; path = ../AshBacktrack.m; sourceTree = "<group>"; };
-		F2A56146230562AA008218DB /* AshBacktrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AshBacktrack.h; path = ../AshBacktrack.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +73,6 @@
 		F2A560E82304F051008218DB = {
 			isa = PBXGroup;
 			children = (
-				F2A56146230562AA008218DB /* AshBacktrack.h */,
-				F2A56145230562AA008218DB /* AshBacktrack.m */,
 				F2A5611E230548BF008218DB /* AshHookModInitFunc.mm */,
 				F2A560F32304F051008218DB /* AshHookModInitFuncDemo */,
 				F2A5612423054E23008218DB /* Test */,
@@ -218,7 +213,6 @@
 				F2A5613B23054E31008218DB /* TestAttribute.m in Sources */,
 				F2A561042304F051008218DB /* main.m in Sources */,
 				F2A560F62304F051008218DB /* AppDelegate.m in Sources */,
-				F2A56147230562AA008218DB /* AshBacktrack.m in Sources */,
 				F2A5613E23054E31008218DB /* TestVarVar.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,6 +357,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = AshHookModInitFuncDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_GENERATE_MAP_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -380,6 +375,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = AshHookModInitFuncDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_GENERATE_MAP_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
